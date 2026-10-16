@@ -9,7 +9,6 @@ db = SQLAlchemy(metadata=metadata)
 
 # Define the Pet model class by inheriting from db.Model
 class Pet(db.Model):
-    # Specify the name of the database table
     __tablename__ = 'pets'
 
     # Define columns, data types, and constraints for the table
